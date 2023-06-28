@@ -10,7 +10,7 @@ public class ClassLoaderTest2 {
             ClassLoader classLoader1 = Thread.currentThread().getContextClassLoader();
             System.out.println(classLoader1);
 
-            //3.
+            //3.HAHAHAH
             ClassLoader classLoader2 = ClassLoader.getSystemClassLoader().getParent();
             System.out.println(classLoader2);
 
