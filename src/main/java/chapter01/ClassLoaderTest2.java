@@ -3,7 +3,7 @@ package chapter01;
 public class ClassLoaderTest2 {
     public static void main(String[] args) {
         try {
-            //1.
+            //1.32423
             ClassLoader classLoader = Class.forName("java.lang.String").getClassLoader();
             System.out.println(classLoader);
             //2.
